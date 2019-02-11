@@ -45,27 +45,24 @@ LOGGING = {
 
 ### 3. Setting Graylog
 
-- Đăng nhập vào `Graylog`. Tại giao diện của `Graylog`
+- Đăng nhập vào `Graylog`. Tại giao diện của `Graylog` -> `System` -> `Inputs`
 
-`System` -> `Inputs`
-
-ảnh 1
+![alt text](https://raw.githubusercontent.com/huytm/Intergate-django-with-graylog/master/Screenshot1.png "Ảnh 1")
 
 - Tại màn inputs, tại `Select input` -> `GELF UDP` -> `Launch new input` 
 
-ảnh 2
+![alt text](https://raw.githubusercontent.com/huytm/Intergate-django-with-graylog/master/Screenshot2.png "Ảnh 2")
 
 
 - Nhập các thông số như sau và `Save`
 
-ảnh 3
+![alt text](https://raw.githubusercontent.com/huytm/Intergate-django-with-graylog/master/Screenshot3.png "Ảnh 3")
 
 ### 4. Kiểm tra lại
 
 - Thực hiện một số action để xuất hiện log trên `django` và kiểm tra tại `graylog`
 
-ảnh 4
-
+![alt text](https://raw.githubusercontent.com/huytm/Intergate-django-with-graylog/master/Screenshot4.png "Ảnh 4")
 
 
 ### Tham khảo
